@@ -20,5 +20,5 @@ n = 5
 `var i = 1`
 `var b = true`
 `var f = 3.14`
-`var s = "git
+`var s = "git`
 
