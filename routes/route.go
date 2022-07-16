@@ -8,7 +8,7 @@ import (
 
 func NewRoutes() *gin.Engine {
 	router := gin.Default()
-	// レシピ作成
+
 	router.POST("/member", handler.MemberHandler)
 	router.GET("/member/list", handler.MemberListHandler)
 	router.PUT("/member/update/:id", handler.UpdateMemberHandler)
