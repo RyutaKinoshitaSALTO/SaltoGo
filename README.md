@@ -1,5 +1,5 @@
 # 変数
-#### var [変数名] [変数の型]のように定義する。
+var [変数名] [変数の型]のように定義する。
 
 ``` 
 var n int
@@ -126,3 +126,8 @@ var pt Point
 pt.X = 10
 pt.X // == 10
 ``` 
+# 参考文献
+https://qiita.com/katsuomi/items/d1e6625ae9a5b663e11f
+https://qiita.com/shiei_kawa/items/eddf48287455380f618f
+https://www.udemy.com/course/go-fintech/
+
