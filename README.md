@@ -192,14 +192,29 @@ var pt Point
 pt.X = 10
 pt.X // == 10
 ``` 
+
+# APIの実行方法
+``` 
+go run main.go  
+
+//post
+curl  http://localhost:8080/member
+//get
+curl  http://localhost:8080/member/list
+//put
+curl  http://localhost:8080//member/update/:id
+//delete
+curl  http://localhost:8080//member/delete/:id
+``` 
+
 # 参考文献
 
-golangの基礎(初級編) → https://go-tour-jp.appspot.com/list
-golangの基礎(中級編) → https://gopherdojo.org/
-golangの応用編(上級編) → https://www.udemy.com/course/go-fintech/
-ginフレームワークの基礎(初級編) → https://qiita.com/shiei_kawa/items/eddf48287455380f618f
-ginフレームワークの基礎(中級編) → https://qiita.com/katsuomi/items/d1e6625ae9a5b663e11f
-golangを環境関係なく実行 → https://go.dev/play/
+#### golangの基礎(初級編) → https://go-tour-jp.appspot.com/list
+#### golangの基礎(中級編) → https://gopherdojo.org/
+#### golangの応用編(上級編) → https://www.udemy.com/course/go-fintech/
+#### ginフレームワークの基礎(初級編) → https://qiita.com/shiei_kawa/items/eddf48287455380f618f
+#### ginフレームワークの基礎(中級編) → https://qiita.com/katsuomi/items/d1e6625ae9a5b663e11f
+#### golangを環境関係なく実行 → https://go.dev/play/
 
 
 
